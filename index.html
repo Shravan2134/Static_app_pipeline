@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shravan's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 id="name">Shravan Kumar</h1>
+      <p id="title">Cloud Architect & Python Developer</p>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p id="bio"></p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skillsList" class="skills-grid"></ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projectFilters">
+        <button data-tech="all">All</button>
+        <button data-tech="Python">Python</button>
+        <button data-tech="Azure">Azure</button>
+      </div>
+      <div id="projectCards" class="projects-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Shravan Kumar • <a href="#">LinkedIn</a> • <a href="#">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
